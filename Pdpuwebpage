@@ -1,0 +1,175 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pandit Deendayal Energy University</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: dodgerblue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #003366;
+    }
+    .hero {
+      background-image: "https://api.pdeu.ac.in/pdpu/images/65b7db9d3ffd1.jpeg";
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background-color: dodgerblue;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pandit Deendayal Energy University</h1>
+    <p>Gandhinagar, Gujarat</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#programs">Programs</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <img src="https://api.pdeu.ac.in/pdpu/images/65b7db9d3ffd1.jpeg" alt="Avatar" class="image">
+    <div class="overlay">
+    </div>
+
+  <div class="content">
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to PDPU</h1>
+            <p>PDEU was established as a Petroleum University in 2007 with a focus on fossil fuels and later emerged as India's only energy university in the year 2021, dedicated to energy education and research. Today, the university has marked its presence as a renowned institution with noteworthy national and international visibility. PDEU is aggresively contributing towards Nation's AatmaNirbharBharat Abhiyan.            </p>
+            <a href="#admissions" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>"As there is a global quest for more efficiency through Industry 4.0, we are prepared with the opportunity of finding innovative solutions to these challenges, and becoming reservoir of knowledge for radical yet sustainable societal transformation."</p>
+        </div>
+    </section>
+    <div class="img2">
+      <img src="	https://api.pdeu.ac.in/pdpu/images/65fbe47cee963.png" alt="image">
+    </div>
+    <H1>ACADEMICS</H1></U>
+    <img src="https://pdpu.ac.in/images/sotlogo.jpg"alt="My Image" srcset="" height:100px>
+    <img src="https://pdpu.ac.in/images/sptlogo.jpg"alt="My Image" srcset="" height:100px>
+    <img src="https://pdpu.ac.in/images/spmlogo.jpg"alt="My Image" srcset="" height:100px>
+    <img src="https://pdpu.ac.in/images/slslogo.jpg"alt="My Image" srcset="" height:100px><br>
+        1.⁠ ⁠School of Petroleum Management offers M.B.A. in (a) Energy & Infrastructure and (b) General Management, Ph.D., Post Graduate Diploma in Petroleum Management for Executives (PGDPM-X) and Management Development Programmes.<BR>
+        <a href = "https://spm.pdpu.ac.in/">SPM</a><BR>
+        2.⁠ ⁠School of Petroleum Technology offers B.Tech., M.Tech. and Ph.D. programs in Petroleum Engineering. It is academically engaged in creating a high quality talent pool for the hydrocarbon sector across the entire value chain.<BR>
+        <a href = "https://soet.pdpu.ac.in/">SoET&SOM</a><BR>
+        3.⁠ ⁠School of Technology offers B.Tech. in the fields of Civil, Electrical, Mechanical, Chemical, Computer & ICT besides the Ph.D. Programs in the above areas. It also offers M.Tech in Nuclear & Solar Engineering and other disciplines.<BR>
+        <a href = "https://sot.pdpu.ac.in/">SOT</a><BR>
+        4.⁠ ⁠School of Liberal Studies offers four year Bachelor degree programme (B.A (Hons.), B.B.A (Hons.), B.Com (Hons.) in the field of Liberal Studies, M.A. in English / Public Administration / Politics and International Relations / Psychology / Economics / Mass Communication and M.Com as well as the Ph.D. programs in all areas.<BR>
+        <a href = "https://sls.pdpu.ac.in/">SLS</a><BR>
+        <h2>Education Programs</h2>
+        <div class="academics-grid">
+            <div class="academic-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Undergraduate Programs</h3>
+                <p>Explore our wide range of undergraduate programs designed to provide a strong foundation in various disciplines.</p>
+            </div>
+            <div class="academic-card">
+                <i class="fas fa-book"></i>
+                <h3>Postgraduate Programs</h3>
+                <p>Our postgraduate programs offer advanced knowledge and specialization in various fields of study.</p>
+            </div>
+            <div class="academic-card">
+                <i class="fas fa-flask"></i>
+                <h3>Research Programs</h3>
+                <p>Engage in cutting-edge research and contribute to the advancement of knowledge in your field.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <div class="research-content">
+            <p>At PDPU, we are committed to fostering a culture of research and innovation. Our state-of-the-art facilities and collaborative environment enable our students and faculty to undertake groundbreaking research.</p>
+            <a href="#research-projects" class="btn">View Research Projects</a>
+        </div>
+    </section>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <div class="admissions-content">
+            <p>Join our vibrant community of learners and innovators. Find out more about our admission process, eligibility criteria, and important dates.</p>
+            <a href="#apply-now" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="campus-life">
+        <h2>Campus Life</h2>
+        <div class="campus-life-grid">
+            <div class="campus-card">
+                <img src="	https://pdeu.ac.in/academics.jpg" alt="Campus Life">
+                <h3>Student Activities</h3>
+                <p>Participate in a variety of student activities, clubs, and organizations to enhance your university experience.</p>
+            </div>
+            <div class="campus-card">
+                <img src="	https://api.pdeu.ac.in/pdpu/images/6523e03dd0dfb.png" alt="Campus Life">
+                <h3>Sports and Recreation</h3>
+                <p>Stay active and healthy with our state-of-the-art sports facilities and recreational programs.</p>
+            </div>
+            <div class="campus-card">
+                <img src="	https://api.pdeu.ac.in/pdpu/images/65c23ab5c64a0.png" alt="Campus Life">
+                <h3>Events and Festivals</h3>
+                <p>Experience the vibrant campus life through various events, festivals, and cultural programs.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" style="padding: 40px; background-color: #f4f4f4; text-align: center;">
+      <h2>Contact Us</h2>
+      <form style="max-width: 400px; margin: auto;">
+          <input type="text" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
+          <input type="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;">
+          <textarea placeholder="Your Message" rows="4" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+          <input type="submit" value="Send Message" style="background:dodgerblue; color: white; border: none; padding: 10px 15px; cursor: pointer;">
+      </form>
+  </section>
+
+
+  <footer style="background-color:dodgerblue; color: white; text-align: center; padding: 10px;">
+      <p>&copy; 2025 Pandit Deendayal Energy University . All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
