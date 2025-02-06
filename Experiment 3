@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS for Beginners</title>
+    <link rel="stylesheet" href="exp4.css">
+</head>
+
+<body>
+    <div class="lesson">
+        <a href="https://www.example.com/lesson1" class="lesson-link">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="play-button">&#x25b6;</div>
+        </a>
+        <div class="lesson-content">
+            <div class="lesson-title">Introduction to CSS</div>
+            <div class="lesson-description">Nov 10, 2023 <br>Understanding what CSS is and why it is important for web design.</div>
+            <span>
+                <button class="like-btn">&#128512;</button>
+                <button class="comment-btn">💬</button>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="video-container">
+            <iframe width="500" height="290" src="https://www.youtube.com/embed/OEV8gMkCHXQ" frameborder="0"
+                allowfullscreen align ="right">
+            </iframe>
+        </div>
+        <h1>CSS for Beginners</h1>
+        <p class="intro-text">
+            Learn the basics of CSS and how to style your web pages effectively. <br>
+            This beginner-friendly course will introduce you to fundamental <br>
+            CSS concepts, including selectors, properties, and responsive design.<br>
+            Perfect for those starting their web development journey!
+        </p>
+        <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" class="start-button">
+            <span class="glyphicon glyphicon-play">&#x25b6; Start Series</span>
+        </a>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li class="navbar-info">8 Lessons | 1h 45m | Beginner</li>
+                    <li class="complete-btn-container">
+                        <button class="complete-btn">Complete Series</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="lesson">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="lesson-content">
+                <div class="lesson-title">Introduction to CSS</div>
+                <div class="lesson-description">Nov 10, 2023 <br>Understanding what CSS is and why it is important for web design.</div>
+                <span>
+                    <button class="like-btn">&#128512;</button>
+                    <button class="comment-btn">💬</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="lesson-content">
+                <div class="lesson-title">CSS Selectors</div>
+                <div class="lesson-description">Nov 10, 2023 <br>Exploring different types of CSS selectors and how to use them effectively.</div>
+                <span>
+                    <button class="like-btn">&#128512;</button>
+                    <button class="comment-btn">💬</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="lesson-content">
+                <div class="lesson-title">CSS Box Model</div>
+                <div class="lesson-description">Nov 10, 2023 <br>Understanding the box model and how it affects layout and spacing.</div>
+                <span>
+                    <button class="like-btn">&#128512;</button>
+                    <button class="comment-btn">💬</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="lesson-content">
+                <div class="lesson-title">CSS Flexbox</div>
+                <div class="lesson-description">Nov 10, 2023 <br>Learn how to create flexible and responsive layouts using Flexbox.</div>
+                <span>
+                    <button class="like-btn">&#128512;</button>
+                    <button class="comment-btn">💬</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="lesson">
+            <img src="exp4.webp" alt="Lesson Thumbnail">
+            <div class="lesson-content">
+                <div class="lesson-title">CSS Grid</div>
+                <div class="lesson-description">Nov 10, 2023 <br>Exploring the grid layout system to create structured web designs.</div>
+                <span>
+                    <button class="like-btn">&#128512;</button>
+                    <button class="comment-btn">💬</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
